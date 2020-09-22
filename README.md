@@ -8,6 +8,7 @@ A Discord bot that uploads gif and pictures of monkeys -- among other things.
 Every command uses the prefix .monke
 
 monke: Gets a random gif of a monkey.
+
 gif \[query\]: Gets a random, g-rated gif, given a query.
 
 gif_custom \[rating\] \[query\]: Gets a random gif with the given rating, given a query.
