@@ -34,7 +34,7 @@ A bot api key from Discord (get one here: https://discord.com/developers/applica
 
 An api key from Giphy (get one here: https://developers.giphy.com/docs/api#quick-start-guide), which you will need to put in giphytoken.txt
 
-A Google Custom Search API key (see instructions here: https://pypi.org/project/Google-Images-Search/), which you will need to put in imagestoken.txt. You will also need to replace the images_cx variable in image.py.
+A Google Custom Search API key (see instructions here: https://pypi.org/project/Google-Images-Search/), which you will need to put in imagestoken.txt. You will also need to replace the images_cx variable in image.py with the cx of your custom search engine made during the process.
 
 You will need the latest version of python, and need to install discord.py, google_images_search, and giphy_client via pip. 
 
