@@ -1,10 +1,10 @@
-## monkebot
+# monkebot
 A discord bot that uploads gif and pictures of monkeys -- among other things.
 
-# Usage example:
+## Main Usage Example:
 ![monkebot usage](https://i.imgur.com/CdBPr7U.png)
 
-# Command list:
+## Command List:
 Every command uses the prefix .monke
 
 monke: Gets a random gif of a monkey.
@@ -26,7 +26,7 @@ screech: Will make monkebot join the current voice channel and play one of two c
 
 shoot \[person\]: Will "shoot" whoever is @'d in the server by playing a random gif of a monkey shooting a gun. Saying "someone" instead of @ing someone will make the bot "shoot" a random member.
 
-# How to Use
+## How to Use
 To use monkebot on your own, you will need:
 A bot api key from discord (get one here: https://discord.com/developers/applications), which you will need to put in token.txt
 An api key from giphy (get one here: https://developers.giphy.com/docs/api#quick-start-guide), which you will need to put in giphytoken.txt
