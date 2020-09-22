@@ -1,5 +1,5 @@
-# monkebot
-A discord bot that uploads gif and pictures of monkeys -- among other things.
+# MonkeBot
+A Discord bot that uploads gif and pictures of monkeys -- among other things.
 
 ## Main Usage Example:
 ![monkebot usage](https://i.imgur.com/CdBPr7U.png)
@@ -27,7 +27,20 @@ screech: Will make monkebot join the current voice channel and play one of two c
 shoot \[person\]: Will "shoot" whoever is @'d in the server by playing a random gif of a monkey shooting a gun. Saying "someone" instead of @ing someone will make the bot "shoot" a random member.
 
 ## How to Use
-To use monkebot on your own, you will need:
-A bot api key from discord (get one here: https://discord.com/developers/applications), which you will need to put in token.txt
-An api key from giphy (get one here: https://developers.giphy.com/docs/api#quick-start-guide), which you will need to put in giphytoken.txt
-A Google custom search API key (see instructions here: https://pypi.org/project/Google-Images-Search/), which you will need to put in imagestoken.txt. You will also need to replace the images_cx variable in image.py
+To use MonkeBot on your own, you will need:
+
+A bot api key from Discord (get one here: https://discord.com/developers/applications), which you will need to put in token.txt
+
+An api key from Giphy (get one here: https://developers.giphy.com/docs/api#quick-start-guide), which you will need to put in giphytoken.txt
+
+A Google Custom Search API key (see instructions here: https://pypi.org/project/Google-Images-Search/), which you will need to put in imagestoken.txt. You will also need to replace the images_cx variable in image.py.
+
+You will need the latest version of python, and need to install discord.py, google_images_search, and giphy_client via pip. 
+
+Finally, you will need to install [ffmpeg](https://ffmpeg.org/).
+
+Alternatively, you may add the bot to your server here:
+
+https://discord.com/api/oauth2/authorize?client_id=757075376148185089&permissions=3270656&scope=bot
+
+The bot will most likely not be online, but you are free to try!
